@@ -18,6 +18,12 @@ import { CardStyleInterpolators } from '@react-navigation/stack';
 
 //Command added
 //Navigators
+//Command added
+//Navigators
+//Command added
+//Navigators
+//Command added
+//Navigators
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
