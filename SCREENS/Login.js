@@ -18,7 +18,7 @@ const LoginScreen = () => {
         console.log('Password:', password);
 
 
-        //Get user from DB
+        //Get user from MONGO_DB
         try {
             const response = await Axios.get(`http://192.168.1.2:8085/portfolio/${userName}`)
             console.log("Login In Response -> ", response.data)
